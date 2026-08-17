@@ -215,8 +215,3 @@ PostgreSQL runs as a Kubernetes StatefulSet with:
 - **WaitForFirstConsumer** — EBS volumes created in same AZ as pod
 - **Modular Terraform** — IRSA module reused for EBS, ALB controller, and future components
 ---
-
-## 👨‍💻 Author
-
-**Sharvari** — DevOps Engineer  
-Building production-grade infrastructure on AWS + Kubernetes
