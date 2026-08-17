@@ -214,20 +214,9 @@ PostgreSQL runs as a Kubernetes StatefulSet with:
 - **ALB with ip target type** — routes directly to pod IPs, bypasses NodePort
 - **WaitForFirstConsumer** — EBS volumes created in same AZ as pod
 - **Modular Terraform** — IRSA module reused for EBS, ALB controller, and future components
-
----
-
-## 🚧 Upcoming
-
-- [ ] ArgoCD — GitOps continuous deployment
-- [ ] Prometheus + Grafana — metrics and dashboards
-- [ ] Loki — centralized log aggregation
-- [ ] Jenkins CD — auto-update image tags post-push
-- [ ] Kubernetes Secrets / AWS Secrets Manager — externalize JWT secret
-
 ---
 
 ## 👨‍💻 Author
 
-**Ayush** — DevOps Engineer  
+**Sharvari** — DevOps Engineer  
 Building production-grade infrastructure on AWS + Kubernetes
